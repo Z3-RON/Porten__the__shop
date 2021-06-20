@@ -91,9 +91,11 @@ h1,h2,h3,h4,h5,h6{
 .nav__item{
     margin-left: 30px;
     padding: 31px 10px;
+    transition: 0.2s;
 }
 .nav__item:hover{
     background: #1F1F1F;
+    transition: 0.2s;
 }
 .nav__ref{
     color: #969696;
@@ -116,8 +118,8 @@ h1,h2,h3,h4,h5,h6{
 }
 /* ======================= */
 .main{
-    background: url('../IMG/main__bg.png') no-repeat top center/ 100%;
-    height: 100vh;
+    background: url('../IMG/main__bg.png') no-repeat top center/ 100% 100%;
+    height: 85vh;
 }
 .main__inner{
     text-align: center;
@@ -161,4 +163,88 @@ h1,h2,h3,h4,h5,h6{
     line-height: 150%;
     text-transform: uppercase;
 }
+/* ======================= */
+.season{
+    display: flex;
+    justify-content: space-between;
+}
+.preview__item{
+    margin-left: 33px;
+}
+.preview__item:first-child{
+    margin-left: 0;
+}
+.preview__name{
+    font-family: 'Playfair Display';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.preview__price{
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 16px;
+    color: #D0D0D0;
+    margin-top: 10px;
+}
+.season__immage{
+    padding: 45px 20px;
+    background: #191B1C;
+    margin-bottom: 25px;
+}
+.season__preview{
+    display: flex;
+    margin: 40px 0 0 40px;
+}
+.common{
+    text-align: center;
+}
+.col_1 .common{
+    margin-left: 38px;
+}
+.common__text{
+    text-transform: uppercase;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    box-sizing: border-box;
+    font-size: 26px;
+    line-height: 48px;
+    margin-bottom: 13px;
+}
+.common__line{
+    content:'';
+    display: block;
+    background: #fff;
+    height: 1px;
+    width: 90px;
+    margin: 0 auto;
+}
+.col_1{
+    margin-top: 60px;
+}
+.col_2{
+    background: url('../IMG/s_bg.jpg') no-repeat right top / 100% 80vh;
+    height: 100vh;
+    width:45%;
+}
+.season__line{
+    margin-bottom: 30px;
+}
+.col_2__inner{
+    margin-top: 55%;
+}
+.common__ref{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'PT Sans';
+    font-size: 12px;
+    line-height: 23px;
+    padding: 8px 20px;
+    border: 1px solid #fff;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+
+
 
