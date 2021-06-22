@@ -118,7 +118,7 @@ h1,h2,h3,h4,h5,h6{
 }
 /* ======================= */
 .main{
-    background: url('../IMG/main__bg.png') no-repeat top center/ 100% 100%;
+    background: url('../IMG/main__bg.png') no-repeat top center/ 100%;
     height: 85vh;
 }
 .main__inner{
@@ -188,9 +188,10 @@ h1,h2,h3,h4,h5,h6{
     margin-top: 10px;
 }
 .season__immage{
-    padding: 45px 20px;
+    padding: 40px 15px;
     background: #191B1C;
     margin-bottom: 25px;
+    cursor:zoom-in;
 }
 .season__preview{
     display: flex;
@@ -202,7 +203,7 @@ h1,h2,h3,h4,h5,h6{
 .col_1 .common{
     margin-left: 38px;
 }
-.common__text{
+.common__logo{
     text-transform: uppercase;
     font-family: 'Playfair Display';
     font-weight: bold;
@@ -224,8 +225,8 @@ h1,h2,h3,h4,h5,h6{
 }
 .col_2{
     background: url('../IMG/s_bg.jpg') no-repeat right top / 100% 80vh;
-    height: 100vh;
     width:45%;
+    height: 80vh;
 }
 .season__line{
     margin-bottom: 30px;
@@ -244,6 +245,41 @@ h1,h2,h3,h4,h5,h6{
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
+.common__ref:hover{
+    background-color: #fff;
+    opacity: 0.7;
+    color: #000;
+    transition: 0.2s;
+}
+.collection .col_2 {
+    background: url('../IMG/collect\ bg.jpg') no-repeat left top / 100% 65vh;
+    width: 45%;
+}
+.collection{
+    display: flex;
+    justify-content: space-between;
+}
+.collection .common{
+    margin: 0 120px 0 0;
+}
+.collection .common__logo{
+    font-size: 26px;
+    line-height: 48px;
+    font-weight: 400;
+}
+.collection .common__text{
+    max-width: 470px;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 41px;
+}
+
+.collection .common__ref{
+    font-size: 16px;
+}
+
 
 
 
